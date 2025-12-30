@@ -1,5 +1,5 @@
 ---
-title: "PHM"
+title: "Prognostic and Health Management|PHM"
 layout: single
 permalink: /phm/
 toc: false
