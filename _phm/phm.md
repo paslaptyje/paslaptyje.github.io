@@ -5,6 +5,9 @@ permalink: /phm/
 toc: false
 ---
 
+### PHM 공부 내용을 정리한 글이며 아래의 전공 서적을 기반으로 작성되었습니다.
+### Prognostics and Health Management of Engineering Systems An Introduction / Nam-Ho Kim, Dawn An, Joo-Ho Choi
+
 {% assign items = site.phm | sort: "order" %}
 <ul>
 {% for doc in items %}
