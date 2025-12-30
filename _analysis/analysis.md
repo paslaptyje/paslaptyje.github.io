@@ -1,14 +1,12 @@
 ---
-title: "PHM"
+title: "해석학"
 layout: single
-permalink: /phm/
-toc: false
+permalink: /analysis/
 ---
 
-{% assign items = site.phm | sort: "order" %}
+{% assign items = site.analysis | sort: "order" %}
 <ul>
 {% for doc in items %}
   <li><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></li>
 {% endfor %}
 </ul>
-
