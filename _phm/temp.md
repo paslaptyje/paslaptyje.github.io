@@ -3,8 +3,6 @@ title: "Introduction"
 layout: single
 toc: true
 toc_sticky: true
-classes: wide
-
 ---
 
 ---
@@ -15,7 +13,7 @@ classes: wide
 
 - Condition Based Maintenance(CBM): 장비의 실제 상태(Actual Condition)를 기반으로 정비를 수행하는 방식
  
-다음의 순서로 유지보수 전략은 발전해왔다.
+## PHM은 어떻게 발전해왔는가
 
 1. corrective maintenance(고장 정비): 고장 발생 후 수리
     장점: 예비 부품의 소모량이 가장 낮다 (고장난 부품만 교체).
@@ -31,10 +29,10 @@ classes: wide
 고장 부품이 많다 -> time-based preventive maintenance(예방 정비)가 유리
 
 ---
-PHM의 주요 단계
+## PHM의 주요 단계
 ---
 
-데이터 획득(data acquisition) -> 진단(diagnostics) -> 예지(prognostics) -> 건전성 관리(health management)
+1. 데이터 획득(data acquisition) -> 2. 진단(diagnostics) -> 3.예지(prognostics) -> 4. 건전성 관리(health management)
 
 데이터 획득(data acquisition) : 센서로부터 데이터 획득 & 전처리
 진단(diagnostics)            : 이상치를 데이터를 기반으로 결함 탐지, 결함들을 분류, 고장 임계값(failure threshold) 대비 심각도(severity)를 계산
@@ -192,6 +190,11 @@ Failure: 고장(기능 상실)
 Failure threshold: 고장 임계값
 
 Severity: 심각도
+
+RUL: 잔여 유효수명
+
+
+
 
 RUL: 잔여 유효수명
 
