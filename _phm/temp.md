@@ -5,10 +5,13 @@ toc: true
 toc_sticky: true
 ---
 
+---
 # 기본 개념
+---
 
-Prognostic and Health Management(PHM): 시스템의 실제 작동 조건 하에서 실시간으로 건전성 상태를 평가하고, 최신 정보를 바탕으로 미래 상태를 예측하는 새로운 엔지니어링 접근 방식
-Condition Based Maintenance(CBM): 장비의 실제 상태(Actual Condition)를 기반으로 정비를 수행하는 방식
+- Prognostic and Health Management(PHM): 시스템의 실제 작동 조건 하에서 실시간으로 건전성 상태를 평가하고, 최신 정보를 바탕으로 미래 상태를 예측하는 새로운 엔지니어링 접근 방식
+
+- Condition Based Maintenance(CBM): 장비의 실제 상태(Actual Condition)를 기반으로 정비를 수행하는 방식
  
 다음의 순서로 유지보수 전략은 발전해왔다.
 
@@ -22,10 +25,13 @@ Condition Based Maintenance(CBM): 장비의 실제 상태(Actual Condition)를 �
                 
 
 고장 부품이 적다 -> corrective maintenance(고장 정비)가 유리
+
 고장 부품이 많다 -> time-based preventive maintenance(예방 정비)가 유리
 
+---
+PHM의 주요 단계
+---
 
-- PHM의 주요 단계:
 데이터 획득(data acquisition) -> 진단(diagnostics) -> 예지(prognostics) -> 건전성 관리(health management)
 
 데이터 획득(data acquisition) : 센서로부터 데이터 획득 & 전처리
@@ -34,20 +40,15 @@ Condition Based Maintenance(CBM): 장비의 실제 상태(Actual Condition)를 �
 건전성 관리(health management): 정비 일정, 물류 지원 관리
 
 
-- 상태기반정비를 위한 개방형 시스템 아키텍처(Open System Architecture for Condition Based Maintenance, OSA/CBM)
+상태기반정비를 위한 개방형 시스템 아키텍처(Open System Architecture for Condition Based Maintenance, OSA/CBM)
 
 아래와 같은 6계층으로 구성된다.
 
 1. Data acquisition     : 센서로 데이터 측정/수집
-
 2. Data manipulation    : 원시 데이터 전처리/가공(필터링, 변환, 특징 추출의 입력 준비 등)
-
 3. Condition monitoring : 상태지표 계산, 이상 경보(alarm) 제공
-
 4. Health assessment    : 상태지표로 건전성 상태를 정량화(“얼마나 나쁜가”)
-
 5. Prognostics          : 미래 열화 진행 추정, RUL 등 예측
-
 6. Decision-making      : 교체/정비 조치 및 계획 수립(정비 의사결정)
 
 
@@ -68,9 +69,9 @@ Condition Based Maintenance(CBM): 장비의 실제 상태(Actual Condition)를 �
 
 
 
-
+---
 # 용어 정리집
-
+---
 ## PHM 및 정비 전략 관련
 
 PHM (Prognostics and Health Management)
@@ -191,3 +192,4 @@ Failure threshold: 고장 임계값
 Severity: 심각도
 
 RUL: 잔여 유효수명
+
