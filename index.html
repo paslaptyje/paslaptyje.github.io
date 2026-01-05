@@ -2,38 +2,41 @@
 layout: splash
 permalink: /
 hidden: true
+
 header:
-overlay_color: "#5e616c"
-overlay_image: /assets/images/logo.jpeg
-actions:
-- label: "View Portfolio"
-url: "/portfolio/"
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/logo.jpeg
+  actions:
+    - label: "View Portfolio"
+      url: "/portfolio/"
+
 excerpt: "Study · Build · Document <br /> Welcome to my personal knowledge base."
+
 feature_row_study:
-- image_path: assets/images/logo.jpeg
-alt: "PHM"
-title: "Prognostic and Health Management (PHM)"
-excerpt: "Study records on predictive maintenance, signal processing, and equipment health monitoring."
-url: "/phm/"
-btn_label: "Explore PHM"
-btn_class: "btn--primary"
-- image_path: assets/images/logo.jpeg
-alt: "Analysis"
-title: "Analysis (해석학)"
-excerpt: "Deep dive into mathematical analysis and theoretical foundations."
-url: "/analysis/"
-btn_label: "Study Analysis"
-btn_class: "btn--primary"
+  - image_path: /assets/images/logo.jpeg
+    alt: "PHM"
+    title: "Prognostic and Health Management (PHM)"
+    excerpt: "Study records on predictive maintenance, signal processing, and equipment health monitoring."
+    url: "/phm/"
+    btn_label: "Explore PHM"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/logo.jpeg
+    alt: "Analysis"
+    title: "Analysis (해석학)"
+    excerpt: "Deep dive into mathematical analysis and theoretical foundations."
+    url: "/analysis/"
+    btn_label: "Study Analysis"
+    btn_class: "btn--primary"
 
 feature_row_portfolio:
-- image_path: assets/images/logo.jpeg
-alt: "Anomaly Detection"
-title: "Latest Project: Anomaly Detection"
-excerpt: "Developing a deep learning model for detecting anomalies in rotating machinery."
-url: "/portfolio/anomaly_detection/"
-btn_label: "View Project"
-btn_class: "btn--inverse"
-
+  - image_path: /assets/images/logo.jpeg
+    alt: "Anomaly Detection"
+    title: "Latest Project: Anomaly Detection"
+    excerpt: "Developing a deep learning model for detecting anomalies in rotating machinery."
+    url: "/portfolio/anomaly_detection/"
+    btn_label: "View Project"
+    btn_class: "btn--inverse"
 ---
 
 {% include feature_row id="feature_row_study" type="left" %}
