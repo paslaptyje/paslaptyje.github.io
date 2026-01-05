@@ -4,6 +4,8 @@ main:
     url: /phm/
   - title: "해석학"
     url: /analysis/
+  - title: "Portfolio"
+    url: /portfolio/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
